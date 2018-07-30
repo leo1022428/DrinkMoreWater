@@ -7,21 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09067060D96C1067D4979558 /* Pods_DrinkMoreWater.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17FD97637C846D0F1D20EA08 /* Pods_DrinkMoreWater.framework */; };
+		B3137BA220F778C800AC1169 /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3137BA120F778C800AC1169 /* HeaderTableViewCell.swift */; };
+		B38A560320FF68A300D60E99 /* EditWaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38A560220FF68A300D60E99 /* EditWaterViewController.swift */; };
+		B38A560720FF81F100D60E99 /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38A560620FF81F100D60E99 /* Define.swift */; };
 		B3D196F620F6E54100BF6662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D196F520F6E54100BF6662 /* AppDelegate.swift */; };
-		B3D196F820F6E54100BF6662 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D196F720F6E54100BF6662 /* ViewController.swift */; };
 		B3D196FB20F6E54100BF6662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D196F920F6E54100BF6662 /* Main.storyboard */; };
 		B3D196FD20F6E54200BF6662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3D196FC20F6E54200BF6662 /* Assets.xcassets */; };
 		B3D1970020F6E54200BF6662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D196FE20F6E54200BF6662 /* LaunchScreen.storyboard */; };
+		B3D1970820F6E57700BF6662 /* DrinkWaterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D1970720F6E57700BF6662 /* DrinkWaterTableViewController.swift */; };
+		B3DFAFEF21020539008F6889 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DFAFEE21020539008F6889 /* SettingTableViewController.swift */; };
+		B3E7B6782101937400C349CE /* DrinkWaterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B6772101937400C349CE /* DrinkWaterTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17FD97637C846D0F1D20EA08 /* Pods_DrinkMoreWater.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DrinkMoreWater.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		354B69702F701126FA374D6B /* Pods-DrinkMoreWater.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrinkMoreWater.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DrinkMoreWater/Pods-DrinkMoreWater.debug.xcconfig"; sourceTree = "<group>"; };
+		66A503B3EA9663CE7C2B6E70 /* Pods-DrinkMoreWater.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrinkMoreWater.release.xcconfig"; path = "Pods/Target Support Files/Pods-DrinkMoreWater/Pods-DrinkMoreWater.release.xcconfig"; sourceTree = "<group>"; };
+		B3137BA120F778C800AC1169 /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
+		B38A560220FF68A300D60E99 /* EditWaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditWaterViewController.swift; sourceTree = "<group>"; };
+		B38A560620FF81F100D60E99 /* Define.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Define.swift; sourceTree = "<group>"; };
 		B3D196F220F6E54100BF6662 /* DrinkMoreWater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkMoreWater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3D196F520F6E54100BF6662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B3D196F720F6E54100BF6662 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B3D196FA20F6E54100BF6662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3D196FC20F6E54200BF6662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3D196FF20F6E54200BF6662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3D1970120F6E54200BF6662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3D1970720F6E57700BF6662 /* DrinkWaterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkWaterTableViewController.swift; sourceTree = "<group>"; };
+		B3DDAE342108406D00911DF8 /* DrinkMoreWater.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DrinkMoreWater.entitlements; sourceTree = "<group>"; };
+		B3DFAFEE21020539008F6889 /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		B3E7B6772101937400C349CE /* DrinkWaterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkWaterTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09067060D96C1067D4979558 /* Pods_DrinkMoreWater.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +56,8 @@
 			children = (
 				B3D196F420F6E54100BF6662 /* DrinkMoreWater */,
 				B3D196F320F6E54100BF6662 /* Products */,
+				EDFA2E28F0255DEDC0ED7DDD /* Pods */,
+				CD9D55A88AA67714E142880F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +72,37 @@
 		B3D196F420F6E54100BF6662 /* DrinkMoreWater */ = {
 			isa = PBXGroup;
 			children = (
+				B3DDAE342108406D00911DF8 /* DrinkMoreWater.entitlements */,
 				B3D196F520F6E54100BF6662 /* AppDelegate.swift */,
-				B3D196F720F6E54100BF6662 /* ViewController.swift */,
+				B3D1970720F6E57700BF6662 /* DrinkWaterTableViewController.swift */,
+				B3E7B6772101937400C349CE /* DrinkWaterTableViewCell.swift */,
+				B38A560220FF68A300D60E99 /* EditWaterViewController.swift */,
+				B3137BA120F778C800AC1169 /* HeaderTableViewCell.swift */,
+				B3DFAFEE21020539008F6889 /* SettingTableViewController.swift */,
+				B38A560620FF81F100D60E99 /* Define.swift */,
 				B3D196F920F6E54100BF6662 /* Main.storyboard */,
 				B3D196FC20F6E54200BF6662 /* Assets.xcassets */,
 				B3D196FE20F6E54200BF6662 /* LaunchScreen.storyboard */,
 				B3D1970120F6E54200BF6662 /* Info.plist */,
 			);
 			path = DrinkMoreWater;
+			sourceTree = "<group>";
+		};
+		CD9D55A88AA67714E142880F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17FD97637C846D0F1D20EA08 /* Pods_DrinkMoreWater.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDFA2E28F0255DEDC0ED7DDD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				354B69702F701126FA374D6B /* Pods-DrinkMoreWater.debug.xcconfig */,
+				66A503B3EA9663CE7C2B6E70 /* Pods-DrinkMoreWater.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,6 +112,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3D1970420F6E54200BF6662 /* Build configuration list for PBXNativeTarget "DrinkMoreWater" */;
 			buildPhases = (
+				A264B08BFAF29A101DE3FE76 /* [CP] Check Pods Manifest.lock */,
 				B3D196EE20F6E54100BF6662 /* Sources */,
 				B3D196EF20F6E54100BF6662 /* Frameworks */,
 				B3D196F020F6E54100BF6662 /* Resources */,
@@ -96,6 +138,11 @@
 				TargetAttributes = {
 					B3D196F120F6E54100BF6662 = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -130,12 +177,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A264B08BFAF29A101DE3FE76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DrinkMoreWater-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B3D196EE20F6E54100BF6662 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3D196F820F6E54100BF6662 /* ViewController.swift in Sources */,
+				B3DFAFEF21020539008F6889 /* SettingTableViewController.swift in Sources */,
+				B3137BA220F778C800AC1169 /* HeaderTableViewCell.swift in Sources */,
+				B38A560720FF81F100D60E99 /* Define.swift in Sources */,
+				B38A560320FF68A300D60E99 /* EditWaterViewController.swift in Sources */,
+				B3D1970820F6E57700BF6662 /* DrinkWaterTableViewController.swift in Sources */,
+				B3E7B6782101937400C349CE /* DrinkWaterTableViewCell.swift in Sources */,
 				B3D196F620F6E54100BF6662 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,11 +353,13 @@
 		};
 		B3D1970520F6E54200BF6662 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 354B69702F701126FA374D6B /* Pods-DrinkMoreWater.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C79K9PYRJB;
 				INFOPLIST_FILE = DrinkMoreWater/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,17 +367,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.leo.DrinkMoreWater;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		B3D1970620F6E54200BF6662 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66A503B3EA9663CE7C2B6E70 /* Pods-DrinkMoreWater.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C79K9PYRJB;
 				INFOPLIST_FILE = DrinkMoreWater/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +387,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.leo.DrinkMoreWater;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

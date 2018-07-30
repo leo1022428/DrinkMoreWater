@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import UserNotifications
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,8 +15,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // Ask user's permission for notifications.
+        let center = UNUserNotificationCenter.current()
+        let option: UNAuthorizationOptions = [.alert, .badge, .sound]
+        center.requestAuthorization(options: option) { (grant, error) in
+            if let error = error {
+                print("Fail to requestAuthorization: \(error)")
+                return
+            }
+            print("User grant the notification permission:" + (grant ? "Yes" : "No"))
+        }
+        
         return true
     }
 
