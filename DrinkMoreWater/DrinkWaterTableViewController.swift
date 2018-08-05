@@ -45,6 +45,9 @@ class DrinkWaterTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        dateFormatter.dateFormat = "HH:mm"
+        dateFormatter.timeStyle = .short
+        
         // Reload user's setting.
         let udDailyWater = userDefault.integer(forKey: DAILYWATER_KEY)
         if udDailyWater != 0 {
@@ -128,9 +131,6 @@ class DrinkWaterTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        dateFormatter.dateFormat = "HH:mm"
-        dateFormatter.timeStyle = .short
-        
         let addDrinkWaterCell = tableView.dequeueReusableCell(withIdentifier: self.addDrinkWaterCell, for: indexPath)
         
         guard let drinkWaterCell = tableView.dequeueReusableCell(withIdentifier: self.drinkWaterCell, for: indexPath) as? DrinkWaterTableViewCell else {
@@ -209,7 +209,7 @@ class DrinkWaterTableViewController: UITableViewController {
     }
     
     
-    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         
         guard editingStyle == .delete else {
             assertionFailure("Fail to delete.")
@@ -405,9 +405,9 @@ class DrinkWaterTableViewController: UITableViewController {
         
         
         // Create notification trigger.
-        let morningTrigger = UNCalendarNotificationTrigger(dateMatching: morningDateComponent, repeats: true)
-        let afternoonTrigger = UNCalendarNotificationTrigger(dateMatching: afternoonDateComponent, repeats: true)
-        let eveningTrigger = UNCalendarNotificationTrigger(dateMatching: eveningDateComponent, repeats: true)
+        let morningTrigger = UNCalendarNotificationTrigger(dateMatching: morningDateComponent, repeats: false)
+        let afternoonTrigger = UNCalendarNotificationTrigger(dateMatching: afternoonDateComponent, repeats: false)
+        let eveningTrigger = UNCalendarNotificationTrigger(dateMatching: eveningDateComponent, repeats: false)
         
         // Create notification request.
         let morningRequest = UNNotificationRequest(identifier: "morning", content: morningContent, trigger: morningTrigger)

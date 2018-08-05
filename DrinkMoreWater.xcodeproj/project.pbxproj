@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		09067060D96C1067D4979558 /* Pods_DrinkMoreWater.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17FD97637C846D0F1D20EA08 /* Pods_DrinkMoreWater.framework */; };
 		B3137BA220F778C800AC1169 /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3137BA120F778C800AC1169 /* HeaderTableViewCell.swift */; };
+		B325A9102116AED400DE4591 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B325A90F2116AED400DE4591 /* .gitignore */; };
 		B38A560320FF68A300D60E99 /* EditWaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38A560220FF68A300D60E99 /* EditWaterViewController.swift */; };
 		B38A560720FF81F100D60E99 /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38A560620FF81F100D60E99 /* Define.swift */; };
 		B3D196F620F6E54100BF6662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D196F520F6E54100BF6662 /* AppDelegate.swift */; };
@@ -25,6 +26,7 @@
 		354B69702F701126FA374D6B /* Pods-DrinkMoreWater.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrinkMoreWater.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DrinkMoreWater/Pods-DrinkMoreWater.debug.xcconfig"; sourceTree = "<group>"; };
 		66A503B3EA9663CE7C2B6E70 /* Pods-DrinkMoreWater.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrinkMoreWater.release.xcconfig"; path = "Pods/Target Support Files/Pods-DrinkMoreWater/Pods-DrinkMoreWater.release.xcconfig"; sourceTree = "<group>"; };
 		B3137BA120F778C800AC1169 /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
+		B325A90F2116AED400DE4591 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		B38A560220FF68A300D60E99 /* EditWaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditWaterViewController.swift; sourceTree = "<group>"; };
 		B38A560620FF81F100D60E99 /* Define.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Define.swift; sourceTree = "<group>"; };
 		B3D196F220F6E54100BF6662 /* DrinkMoreWater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkMoreWater.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +56,7 @@
 		B3D196E920F6E54100BF6662 = {
 			isa = PBXGroup;
 			children = (
+				B325A90F2116AED400DE4591 /* .gitignore */,
 				B3D196F420F6E54100BF6662 /* DrinkMoreWater */,
 				B3D196F320F6E54100BF6662 /* Products */,
 				EDFA2E28F0255DEDC0ED7DDD /* Pods */,
@@ -169,6 +172,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B325A9102116AED400DE4591 /* .gitignore in Resources */,
 				B3D1970020F6E54200BF6662 /* LaunchScreen.storyboard in Resources */,
 				B3D196FD20F6E54200BF6662 /* Assets.xcassets in Resources */,
 				B3D196FB20F6E54100BF6662 /* Main.storyboard in Resources */,
