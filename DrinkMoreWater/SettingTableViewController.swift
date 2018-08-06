@@ -38,7 +38,6 @@ class SettingTableViewController: UITableViewController {
         if let dailyWaterText = dailyWaterTextField.text, let water = Int(dailyWaterText) {
             dailyWater = water
         }
-    
         performSegue(withIdentifier: unwindSettingSegue, sender: nil)
     }
 
